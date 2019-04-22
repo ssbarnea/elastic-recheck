@@ -45,7 +45,7 @@ def get_options():
 
 
 def connect_to_gerrit(user, key):
-    return gerrit.Gerrit('review.openstack.org', user, 29418, key)
+    return gerrit.Gerrit('review.opendev.org', user, 29418, key)
 
 
 def collect_rechecks(gerrit, days="14"):

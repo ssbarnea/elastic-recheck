@@ -111,7 +111,7 @@ class TestBotWithTestTools(tests.TestCase):
                 commenting=False)
 
     def fake_print(self, cls, channel, msg):
-        reference = ("openstack/keystone change: https://review.openstack.org/"
+        reference = ("openstack/keystone change: https://review.opendev.org/"
                      "64750 failed because of: "
                      "gate-keystone-python26: "
                      "https://bugs.launchpad.net/bugs/123456, "

@@ -27,7 +27,7 @@
     "eventCreatedOn": 1389371115,
     "change": {
       "topic": "bp\/mapping",
-      "url": "https:\/\/review.openstack.org\/60244",
+      "url": "https:\/\/review.opendev.org\/60244",
       "number": "60244",
       "project": "openstack\/keystone",
       "branch": "master",
@@ -68,7 +68,7 @@
     "eventCreatedOn": 1389384794,
     "change": {
       "topic": "65361",
-      "url": "https:\/\/review.openstack.org\/65361",
+      "url": "https:\/\/review.opendev.org\/65361",
       "number": "65361",
       "project": "openstack\/requirements",
       "branch": "master",
@@ -109,7 +109,7 @@
     "eventCreatedOn": 1389383805,
     "change": {
       "topic": "bp\/image-flavor-selection-ux-enhancement",
-      "url": "https:\/\/review.openstack.org\/63078",
+      "url": "https:\/\/review.opendev.org\/63078",
       "number": "63078",
       "project": "openstack\/horizon",
       "branch": "master",
@@ -150,7 +150,7 @@
     "eventCreatedOn": 1389306576,
     "change": {
       "topic": "slow-down-there-cowboy",
-      "url": "https:\/\/review.openstack.org\/65805",
+      "url": "https:\/\/review.opendev.org\/65805",
       "number": "65805",
       "project": "openstack-infra\/devstack-gate",
       "branch": "master",
@@ -191,7 +191,7 @@
     "eventCreatedOn": 1389391347,
     "change": {
       "topic": "1187119-a",
-      "url": "https:\/\/review.openstack.org\/65378",
+      "url": "https:\/\/review.opendev.org\/65378",
       "number": "65378",
       "project": "openstack\/api-site",
       "branch": "master",
@@ -232,7 +232,7 @@
     "eventCreatedOn": 1389378289,
     "change": {
       "topic": "bug\/1265108",
-      "url": "https:\/\/review.openstack.org\/64749",
+      "url": "https:\/\/review.opendev.org\/64749",
       "number": "64749",
       "project": "openstack\/keystone",
       "branch": "master",
@@ -273,7 +273,7 @@
     "eventCreatedOn": 1389378289,
     "change": {
       "topic": "bug\/1265108",
-      "url": "https:\/\/review.openstack.org\/64750",
+      "url": "https:\/\/review.opendev.org\/64750",
       "number": "64750",
       "project": "openstack\/keystone",
       "branch": "master",
@@ -314,7 +314,7 @@
     "eventCreatedOn": 1389387264,
     "change": {
       "topic": "bugs\/1267682",
-      "url": "https:\/\/review.openstack.org\/65902",
+      "url": "https:\/\/review.opendev.org\/65902",
       "number": "65902",
       "project": "openstack\/neutron",
       "branch": "master",
@@ -355,7 +355,7 @@
     "eventCreatedOn": 1389388172,
     "change": {
       "topic": "bug\/1253497",
-      "url": "https:\/\/review.openstack.org\/66064",
+      "url": "https:\/\/review.opendev.org\/66064",
       "number": "66064",
       "project": "openstack\/glance",
       "branch": "master",
@@ -396,7 +396,7 @@
     "eventCreatedOn": 1389354908,
     "change": {
       "topic": "del-param",
-      "url": "https:\/\/review.openstack.org\/65925",
+      "url": "https:\/\/review.opendev.org\/65925",
       "number": "65925",
       "project": "openstack\/savanna",
       "branch": "master",
@@ -437,7 +437,7 @@
     "eventCreatedOn": 1387806669,
     "change": {
       "topic": "bug\/1259078",
-      "url": "https:\/\/review.openstack.org\/61074",
+      "url": "https:\/\/review.opendev.org\/61074",
       "number": "61074",
       "project": "openstack\/heat",
       "branch": "master",

@@ -14,7 +14,7 @@ ci_username=jenkins
 
 [gerrit]
 user=treinish
-host=review.openstack.org
+host=review.opendev.org
 query_file=/home/mtreinish/elasticRecheck/queries
 key=/home/mtreinish/.ssh/id_rsa
 

@@ -26,7 +26,7 @@ JOBS_RE = 'dsvm'
 CI_USERNAME = 'jenkins'
 
 GERRIT_QUERY_FILE = 'queries'
-GERRIT_HOST = 'review.openstack.org'
+GERRIT_HOST = 'review.opendev.org'
 
 PID_FN = '/var/run/elastic-recheck/elastic-recheck.pid'
 
