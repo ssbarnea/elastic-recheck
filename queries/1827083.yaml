@@ -1,0 +1,4 @@
+query: >-
+  message:"ERROR: Could not install packages due to an EnvironmentError: HTTPSConnectionPool(host='git.openstack.org', port=443): Max retries exceeded with url: /cgit/openstack/requirements/plain/upper-constraints.txt (Caused by NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at" AND
+  message:"Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))" AND
+  tags:"console"
