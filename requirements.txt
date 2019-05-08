@@ -11,6 +11,10 @@ lockfile
 Babel>=0.9.6
 lazr.restfulclient>=0.14.2 # LGPL
 httplib2>=0.12.0 # MIT License
+# NOTE(mriedem): launchpadlib has an uncapped dependency on keyring which
+# dropped support for python2.7 in version 19.0.0 so for py27 environments we
+# have to explicitly install a capped version of keyring first.
+keyring<19.0.0;python_version=='2.7'
 launchpadlib>=1.10.6 # LGPL
 Jinja2
 requests
