@@ -28,7 +28,7 @@ def load(directory='queries'):
     data = []
     for fname in bugs:
         bugnum = os.path.basename(fname).rstrip('.yaml')
-        query = yaml.load(open(fname).read())
+        query = yaml.safe_load(open(fname).read())
         query['bug'] = bugnum
         # By default we filter out non-voting jobs, but in certain cases we
         # want to show failures for non-voting jobs in the graph while we
