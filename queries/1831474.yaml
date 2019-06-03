@@ -1,0 +1,4 @@
+query: >-
+  message:"('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))" AND
+  tags:"console" AND
+  node_provider:"rax-dfw"
