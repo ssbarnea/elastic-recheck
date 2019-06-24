@@ -1,0 +1,3 @@
+query: >-
+  message:"Bridge br-ex for physical network public does not exist. Agent terminated!" AND
+  tags:"screen-neutron-agent.txt"
