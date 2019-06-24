@@ -1,0 +1,3 @@
+query: >-
+  message:"testtools.matchers._impl.MismatchError: <bound method BaseV2ComputeTest.create_image_from_server of <class 'tempest.api.compute.images.test_images_oneserver_negative.ImagesOneServerNegativeTestJSON'>> returned {}" AND
+  tags:"console"
