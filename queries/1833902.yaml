@@ -1,0 +1,6 @@
+query: >-
+  message:"tempest-MigrationsAdminTest" AND
+  message:"Timeout waiting for Neutron events: [('network-vif-plugged'" AND
+  tags:"screen-n-cpu.txt" AND (
+  build_name:"neutron-tempest-iptables_hybrid" OR
+  build_name:"neutron-tempest-iptables_hybrid-fedora")
