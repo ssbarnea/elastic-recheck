@@ -160,7 +160,40 @@ Queries that have "suppress-graph: true" in them generally should not be
 removed since we basically want to keep those around, they are persistent infra
 issues and are not going away.
 
-Steps:
+Automated Cleanup
+~~~~~~~~~~~~~~~~~
+
+#. Run the ``elastic-recheck-cleanup`` command:
+
+   .. code-block:: console
+
+     $ tox -e venv -- elastic-recheck-cleanup -h
+     ...
+     usage: elastic-recheck-cleanup [-h] [--bug <bug>] [--dry-run] [-v]
+
+     Remove old queries where the affected projects list the bug status as one
+     of: Fix Committed, Fix Released
+
+     optional arguments:
+          -h, --help   show this help message and exit
+          --bug <bug>  Specific bug number/id to clean. Returns an exit code of
+                       1 if no query is found for the bug.
+          --dry-run    Print out old queries that would be removed but do not
+                       actually remove them.
+          -v           Print verbose information during execution.
+
+   .. note:: You may want to run with the ``--dry-run`` option first and
+             sanity check the removed queries before committing them.
+
+#. Commit the changes and push them up for review:
+
+   .. code-block:: console
+
+     $ git commit -a -m "Remove old queries: `date +%F`"
+     $ git review -t rm-old-queries
+
+Manual Cleanup
+~~~~~~~~~~~~~~
 
 #. Go to the `All Pipelines <http://status.openstack.org/elastic-recheck/index.html>`_ page.
 #. Look for anything that is grayed out at the bottom which means it has not
