@@ -1,7 +1,0 @@
-query: >-
-  message:"ERROR [nova.compute.manager] Did not find resource allocations for migration" AND
-  message:"on source node" AND
-  message:"Unable to revert source node allocations back to the instance." AND
-  tags:"console" AND (
-  build_name:"nova-tox-functional" OR
-  build_name:"nova-tox-functional-py36")
