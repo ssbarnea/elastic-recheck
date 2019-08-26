@@ -18,10 +18,10 @@ from elastic_recheck.cmd import graph
 from elastic_recheck import elasticRecheck as er
 
 
-# TODO(mriedem): We may want to include Invalid, Incomplete and Won't Fix in
+# TODO(mriedem): We may want to include Incomplete and Won't Fix in
 # this list since a bug could be reported against multiple projects but only
 # fixed in one of them and marked Invalid in others.
-FIXED_STATUSES = ('Fix Committed', 'Fix Released')
+FIXED_STATUSES = ('Invalid', 'Fix Committed', 'Fix Released')
 
 
 class InvalidProjectstatus(Exception):
