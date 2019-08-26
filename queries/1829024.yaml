@@ -1,3 +1,0 @@
-query: >-
-  message:"Could not install packages due to an EnvironmentError: 404 Client Error: Not Found for url: https://opendev.org/openstack/requirements/raw/branch/master/upper-constraints.txt" AND
-  tags:"console"
