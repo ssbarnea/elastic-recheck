@@ -1,0 +1,4 @@
+query: >-
+  message:"GROWROOT: NOCHANGE: partition 1 is size" AND
+  message:"it cannot be grown" AND
+  tags:"console"
