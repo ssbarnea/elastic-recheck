@@ -1,0 +1,3 @@
+query: >-
+  message:"OpenStackApiException not raised by _set_az_aggregate" AND
+  tags:"console"
