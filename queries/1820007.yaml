@@ -1,0 +1,3 @@
+query: >-
+  message:"Instance failed to spawn: os_brick.exception.VolumeDeviceNotFound: Volume device not found at /dev/disk/by-id." AND
+  tags:"screen-n-cpu.txt"
