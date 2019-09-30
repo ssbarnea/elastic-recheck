@@ -1,0 +1,3 @@
+query: >-
+  tags:"console" AND
+  message:"The task includes an option with an undefined variable. The error was: 'dict object' has no attribute 'stdout'"
