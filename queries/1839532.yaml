@@ -1,4 +1,0 @@
-query: >-
-  message:"Action\":\"pull" AND
-  message:"ERROR /var/log/tripleo-container-image-prepare.log" AND
-  tags:"console"

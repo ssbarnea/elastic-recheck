@@ -1,5 +1,0 @@
-query: >-
-  message:"testtools.matchers._impl.MismatchError: 6 != 7" AND
-  message:"u'instance.live_migration_force_complete.end'" AND
-  message:"u'instance.live_migration_post.start'"
-  AND tags:"console"

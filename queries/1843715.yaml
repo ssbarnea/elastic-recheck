@@ -1,3 +1,0 @@
-query: >-
-  message:"ERROR: No matching distribution found for configparser===4.0.1" AND
-  tags:"console"
