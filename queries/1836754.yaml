@@ -1,0 +1,4 @@
+query: >-
+  message:"Unable to delete allocation for instance" AND
+  message:"\"code\": \"placement.concurrent_update\"" AND
+  tags:"screen-n-api.txt"
