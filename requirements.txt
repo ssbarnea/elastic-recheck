@@ -5,7 +5,10 @@ pytz
 pyelasticsearch<1.0
 gerritlib
 python-daemon>=2.2.0
-irc>=15.0.1
+# NOTE(mriedem): irc 17.0 dropped support for py2 so use a capped version in
+# that case.
+irc>=15.0.1,<17.0;python_version<'3.4'
+irc>=17.0;python_version>='3.4'
 pyyaml
 lockfile
 Babel>=0.9.6
