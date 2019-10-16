@@ -43,7 +43,10 @@ class TestQueries(tests.TestCase):
                                                         'production',
                                                         LPCACHEDIR)
         self.openstack_projects = (self.get_group_projects('openstack') +
-                                   self.get_group_projects('oslo'))
+                                   self.get_group_projects('oslo') +
+                                   # Fix for story 2006737 since os-brick is
+                                   # not in the openstack group in launchpad.
+                                   ['os-brick'])
 
     def get_group_projects(self, group_name):
         group = self.lp.project_groups[group_name]
