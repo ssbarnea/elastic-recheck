@@ -1,0 +1,4 @@
+query: >-
+  message:"kernel BUG at" AND
+  message:"ext4" AND
+  tags:"console"
