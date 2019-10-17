@@ -1,0 +1,3 @@
+query: >-
+  message:"AttributeError: 'DiGraph' object has no attribute 'node'" AND
+  tags:"console"
