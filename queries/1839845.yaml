@@ -1,3 +1,0 @@
-query: >-
-  message:"RuntimeError: Failed to retrieve repo file from https://trunk.rdoproject.org/" AND
-  tags:"console"
