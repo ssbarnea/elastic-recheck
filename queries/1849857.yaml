@@ -1,0 +1,3 @@
+query: >-
+  message:"WARN: generating key of type" AND message:"failed!" AND
+  tags:"console"
