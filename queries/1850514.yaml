@@ -1,0 +1,4 @@
+query: >-
+  message:"{\"conflictingRequest\": {\"message\": \"Cannot 'migrate' instance" AND
+  message:"while it is in vm_state building\"" AND
+  tags:"console"
