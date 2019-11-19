@@ -1,0 +1,3 @@
+query: >-
+  message:"nova requires Python '>=3.6' but the running Python is" AND
+  tags:"console"
