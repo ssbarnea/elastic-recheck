@@ -1,0 +1,3 @@
+query: >-
+  message:"TestShelveInstance:test_shelve_volume_backed_instance. Timeout trying to ssh to server" AND
+  tags:"console"
