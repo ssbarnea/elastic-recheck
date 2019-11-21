@@ -1,3 +1,7 @@
 query: >-
-  message:"TestShelveInstance:test_shelve_volume_backed_instance. Timeout trying to ssh to server" AND
+  (message:"TestShelveInstance:test_shelve_volume_backed_instance." OR
+   message:"TestShelveInstance:test_shelve_instance." OR
+   message:"AttachVolumeShelveTestJSON:test_attach_volume_shelved_or_offload_server." OR
+   message:"AttachVolumeShelveTestJSON:test_detach_volume_shelved_or_offload_server") AND
+  message:"Timeout trying to ssh to server" AND
   tags:"console"
