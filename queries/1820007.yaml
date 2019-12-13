@@ -1,3 +1,5 @@
 query: >-
-  message:"Instance failed to spawn: os_brick.exception.VolumeDeviceNotFound: Volume device not found at /dev/disk/by-id." AND
+  (message:"Instance failed to spawn" OR
+   message:"Driver failed to attach volume") AND
+  message:"os_brick.exception.VolumeDeviceNotFound: Volume device not found at /dev/disk/by-id." AND
   tags:"screen-n-cpu.txt"
