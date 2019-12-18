@@ -201,6 +201,10 @@ def main():
             LOG.exception("Timeout while collecting metrics for query %s" %
                           query['query'])
             continue
+        except pyelasticsearch.exceptions.ElasticHttpError as ex:
+            LOG.error('Error from elasticsearch query for bug %s: %s',
+                      query['bug'], ex)
+            continue
 
         facets_for_fail = er_results.FacetSet()
         facets_for_fail.detect_facets(results,
