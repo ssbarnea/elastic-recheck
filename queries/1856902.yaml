@@ -1,0 +1,4 @@
+query: >-
+  message:"Wait for state change failed" AND
+  message:"'extra_specs': {'hw:pmem': 'SMALL'}}" AND
+  tags:"console"
