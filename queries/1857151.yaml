@@ -1,0 +1,3 @@
+query: >-
+  message:"WARN: failed: route add -net" AND
+  tags:"console"
