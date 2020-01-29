@@ -17,7 +17,9 @@ function update_graph_for_bug(main, bug) {
     if (bug['fails'] > 0) {
         $.plot(div, bug['data'],
                {xaxis: {
-                   mode: "time"
+                   mode: "time",
+                   timeBase: "milliseconds",
+                   timeformat: "%Y/%m/%d"
                }}
               );
     } else {
